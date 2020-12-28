@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from pyvis.network import Network
 #Network(notebook=True)
 st.title('Hello Networkx')
-# make Network show itself with repr_html
+
 def net_repr_html(self):
   nodes, edges, height, width, options = self.get_network_data()
   html = self.template.render(height=height, width=width, nodes=nodes, edges=edges, options=options)
