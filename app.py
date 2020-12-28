@@ -25,7 +25,7 @@ nx_graph.add_edge(20, 21, weight=5)
 nx_graph.add_node(25, size=25, label='lonely', title='lonely node', group=3)
 
 from pyvis.network import Network
-nt = Network("500px", "500px",heading='Hello Pyvis')
+nt = Network("900px", "900px",heading='Hello Pyvis')
 nt.from_nx(nx_graph)
 nt.show('test.html')
 #components.html(test.html)
