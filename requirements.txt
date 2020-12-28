@@ -1,0 +1,4 @@
+matplotlib==3.2.2
+networkx==2.5
+streamlit==0.73.1
+pyvis==0.1.8.2
