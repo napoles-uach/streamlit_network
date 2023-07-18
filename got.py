@@ -10,7 +10,7 @@ def got_func(physics):
 
 # set the physics layout of the network
   got_net.barnes_hut()
-  got_data = pd.read_csv("https://www.macalester.edu/~abeverid/data/stormofswords.csv")
+  got_data = pd.read_csv("https://raw.githubusercontent.com/pupimvictor/NetworkOfThrones/master/stormofswords.csv")
   #got_data = pd.read_csv("stormofswords.csv")
   #got_data.rename(index={0: "Source", 1: "Target", 2: "Weight"}) 
   sources = got_data['Source']
